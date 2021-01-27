@@ -1,0 +1,32 @@
+.sidebar__item {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem;
+  position: relative;
+  transition: 200ms;
+}
+
+.sidebar__item:hover,
+.sidebar__item:focus {
+  background-color: rgba(61, 117, 9, 0.3);
+}
+
+.sidebar__item:active {
+  background-color: rgba(61, 117, 9, 0.5);
+}
+
+.sidebar__item::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 0;
+  height: 2px;
+  background-color: rgb(95, 167, 29, 0.8);
+}
+
+.sidebar__item:last-child::after {
+  display: none;
+}

@@ -1,0 +1,12 @@
+.slider__container {
+  background-color: chartreuse;
+
+  border-radius: 50px;
+  border: 1px solid #6ab81c;
+  margin: 3rem;
+  padding: 1.2rem;
+}
+
+.slider {
+  width: 100%;
+}
